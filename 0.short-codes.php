@@ -1,3 +1,6 @@
+(@)check version
+ng v
+
 (@)install angular
 npm install -g @angular/cli@latest
 
