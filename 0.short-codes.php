@@ -1,6 +1,12 @@
 (@)install angular
 npm install -g @angular/cli@latest
 
+(@)Update latest angular
+npm uninstall -g @angular/cli
+npm cache verify
+npm cahe clean
+npm install -g @angular/cli@latest
+
 
 (@)install new angular app
 ng new appName
