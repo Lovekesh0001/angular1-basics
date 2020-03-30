@@ -26,6 +26,9 @@ ng generate component register --module=home/home.module
 or if you dont want automatic import
 ng g component component-name --skip-import
 
+@ create new model and folder
+ng g m shared/material --flat   (--flat create only model)
+
 (@)ng generate p [name]
 
 (@)npm install --save bootstrap@3
