@@ -27,7 +27,7 @@ or if you dont want automatic import
 ng g component component-name --skip-import
 
 @ create new model and folder
-ng g m shared/material --flat   (--flat create only model)
+ng g m shared/material --flat --routing --dry-run   (--flat create only model, --routing create routing, --dry-run no spec file)
 
 (@)ng generate p [name]
 
